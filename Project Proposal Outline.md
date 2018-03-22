@@ -22,8 +22,7 @@ For this particular project and to start this site, I am going to build a Sports
 
 **Amazing to have down the line features include**: allowing the user to customize the gameplay (specific to a sport/ or adding non sports categories), multiple game options for each sport instead of just using jeopardy (ex: name games, trivia games, where did he go to college, whose stats are these, players who wore jersey number, what teams did play for), an incredible library of questions so gamers very rarely if ever get repeated questions.
 
-
-**User Stories**: When a user goes to this app they are directed to the home page that welcomes them. They will be asked for their username 
+**User Stories**: Bob wants to be able to test his knowledge of sports in a multitude of areas to see if he really is the super fan he says he is. Playing this game will help him determine whether he can claim he knows more general fan knowledge then his friends.
 
 **Tech-Stack**: 
 
@@ -69,4 +68,3 @@ Day 6 - Have enough code that the game can be run in a test run setting, fix as 
 Day 7 - Work on any extra features that can be implemented to make the app have more functionality
 
 Day 8 - Finalize the CSS, finalize testing and verification
-
