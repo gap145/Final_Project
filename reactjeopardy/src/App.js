@@ -22,9 +22,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    let customer = localStorage.getItem('username')
+    let user = localStorage.getItem('username')
     this.setState({
-      customer: customer
+      user: user
     })
   }
 
@@ -72,15 +72,15 @@ class App extends Component {
             <Route path="/" exact render={(props) =>
               <Home {...props} handleSubmit={this.handleSubmit} handleInput={this.handleInput} inputValue={this.state.inputValue} />} />
             <Route path="/Jeopardy" render={(props) =>
-              <Jeopardy {...props} customer={this.state.customer} />} />
+              <Jeopardy {...props} user={this.state.user} />} />
             <Route path="/NameGame" render={(props) =>
-              <Namegame {...props} customer={this.state.customer} />} />
+              <Namegame {...props} user={this.state.user} />} />
             <Route path="/WhoAmI" render={(props) =>
-              <Whoami {...props} customer={this.state.customer} />} />
+              <Whoami {...props} user={this.state.user} />} />
             <Route path="/Comparestats" render={(props) =>
-              <Comparestats {...props} customer={this.state.customer} />} />
+              <Comparestats {...props} user={this.state.user} />} />
             <Route path="/Contact" render={(props) =>
-              <Contact {...props} customer={this.state.customer} />} />
+              <Contact {...props} user={this.state.user} />} />
           </Switch>
         </div>
       </div>

@@ -20,7 +20,7 @@ class Jeopardy extends Component {
         const { showing } = this.state;
         return (
             <div className="Rules">
-                <h3> Welcome, {this.props.customer}! to Sports Jeopardy</h3>
+                <h3> Welcome, {this.props.user}! to Sports Jeopardy</h3>
                 <div id="myDIV">
                     <button className="btn btn-primary" onClick={() => this.setState({ showing: !showing })}>Rules (Collapse/Open)</button>
                     <br></br>
