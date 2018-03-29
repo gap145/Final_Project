@@ -1,0 +1,104 @@
+ul {
+  list-style: none;
+  line-height: 1.6;
+}
+
+table,
+td,
+th,
+tr {
+  border: 3px solid white;
+  border-width: thick;
+  text-align: center;
+  align-content: left;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 2px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.btn {
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  font-weight: bold;
+}
+
+/* .album_cover {
+    max-width: 400px;
+    max-height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px;
+} */
+
+.table {
+  border: white;
+  padding: 0;
+}
+
+.container {
+  border: white;
+  color: white;
+  display: inline;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+th {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 1400px;
+  height: 460px;
+  display: block;
+}
+
+.scoreboard1 {
+  border: 3px solid white;
+  border-width: thick;
+  color: white;
+}
+
+.scoreboard2 {
+  border: 3px solid white;
+  border-width: thick;
+  color: white;
+}
+
+.scoreboard1 {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: black;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  min-width: 100px;
+}
+
+.scoreboard2 {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: black;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  min-width: 100px;
+}
+
+.reset {
+  background-color: orange;
+}
