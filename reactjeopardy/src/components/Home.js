@@ -9,18 +9,20 @@ class Home extends Component {
             <div className="Home">
                 <h2> Your Friendly Destination For All Things Sports Trivia</h2>
                 <p> To get started please enter your Username: </p>
-                <form name="add" onSubmit={(e) => { this.props.handleSubmit(e) }}>
-                    <div className="input-group">
-                        <span className="input-group-btn">
-                            <button className="btn btn-success" type="submit"> Submit
-              </button>
-                        </span>
-                        <input className="form-control"
-                            placeholder="username/classname"
-                            value={this.props.inputValue}
-                            onChange={(e) => { this.props.handleInput(e) }} />
-                    </div>
-                </form>
+                <br></br>
+                <div className="contain" >
+                    <form name="add" className="form-container" onSubmit={(e) => { this.props.handleSubmit(e) }}>
+                        <div className="input-group">
+                            <span className="input-group-btn">
+                                <button className="btn btn-success" type="submit"> Submit</button>
+                            </span>
+                            <input className="form-control"
+                                placeholder="username/classname"
+                                value={this.props.inputValue}
+                                onChange={(e) => { this.props.handleInput(e) }} />
+                        </div>
+                    </form>
+                </div>
                 <br></br>
                 <h2> Select Your Trivia Game: </h2>
                 <br></br>

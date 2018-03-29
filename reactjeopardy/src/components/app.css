@@ -1,6 +1,8 @@
 ul {
   list-style: none;
   line-height: 1.6;
+  justify-content: space-between;
+  width: 100%;
 }
 
 table,
@@ -11,6 +13,15 @@ tr {
   border-width: thick;
   text-align: center;
   align-content: left;
+}
+
+.categories {
+  background-color: steelblue;
+}
+
+td {
+  font-size: 22pt;
+  font-weight: bold;
 }
 
 #myDIV {
@@ -26,14 +37,6 @@ tr {
   box-shadow: 2px 2px 7px 1px #1C6EA4;
   font-weight: bold;
 }
-
-/* .album_cover {
-    max-width: 400px;
-    max-height: 400px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 2px;
-} */
 
 .table {
   border: white;
@@ -53,13 +56,12 @@ p {
   color: white;
 }
 
+h4,
 th {
   text-decoration: underline;
 }
 
 .footer {
-  width: 1400px;
-  height: 460px;
   display: block;
 }
 
@@ -67,6 +69,7 @@ th {
   border: 3px solid white;
   border-width: thick;
   color: white;
+  margin-bottom: 5%;
 }
 
 .scoreboard2 {
@@ -101,4 +104,21 @@ th {
 
 .reset {
   background-color: orange;
+}
+
+.form-container {
+  width: 22vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+.score {
+  background-color: rgb(31, 157, 241);
+  font-size: 22pt;
+  font-weight: bold;
 }

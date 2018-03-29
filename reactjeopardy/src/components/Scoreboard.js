@@ -48,12 +48,10 @@ class ScoreBoard extends Component {
             <div className="scoreboard">
                 <div className="scoreboard1">
                     <h4 className="home">Team 1</h4>
-                    <div className="score_container_teamOne">{this.state.teamOne}</div>
+                    <div className="score">{this.state.teamOne}</div>
                     <div>
-                        <a className="add_button teamOne" onClick={() => this.addOneTeamOne()}>+100</a>
-                    </div>
-                    <div>
-                        <a className="minus_button teamOne-subtract1" onClick={() => this.minusOneTeamOne()}>-100</a>
+                        <a className="add_button teamOne" onClick={() => this.addOneTeamOne()}>(+100)</a> -- or --
+                        <a className="minus_button teamOne-subtract1" onClick={() => this.minusOneTeamOne()}>  (-100)</a>
                     </div>
                 </div>
 
@@ -61,12 +59,10 @@ class ScoreBoard extends Component {
 
                 <div className="scoreboard2">
                     <h4 className="away">Team 2</h4>
-                    <div className="score_container_teamTwo">{this.state.teamTwo}</div>
+                    <div className="score">{this.state.teamTwo}</div>
                     <div>
-                        <a className="add_button teamTwo" onClick={() => this.addOneTeamTwo()}>+100</a>
-                    </div>
-                    <div>
-                        <a className="minus_button teamTwo-subtract2" onClick={() => this.minusOneTeamTwo()}>-100</a>
+                        <a className="add_button teamTwo" onClick={() => this.addOneTeamTwo()}>(+100)</a> -- or --
+                        <a className="minus_button teamTwo-subtract2" onClick={() => this.minusOneTeamTwo()}>   (-100)</a>
                     </div>
                 </div>
             </div>

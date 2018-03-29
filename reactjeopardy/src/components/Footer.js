@@ -7,6 +7,7 @@ class Footer extends Component {
         return (
             <div className='footer'>
                 <iframe scrolling="yes"
+                    title="sportsinfo"
                     src="http://www.sportsoverdose.com/team-widget/mlb/new-york-yankees?size=300"
                     frameborder="0"></iframe>
             </div>

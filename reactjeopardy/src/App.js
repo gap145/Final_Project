@@ -45,35 +45,38 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar navbar-expand-sm navbar-dark">
-          <ul className="navbar-nav">
-            <li className="nav-item active">
-              <Link to="/">
-                <button type="button" className="btn btn-success" data-placement="bottom" title="My Home">Home </button>
-              </Link>
-            </li>
-            <h2 className="navbar-brand brand-name">
-              <img className="img1-responsive"
-                src="./images/benches.jpg" />
-            </h2>
-            <li className="nav-item">
-              <Link to="/Contact">
-                <button type="button" className="btn" data-placement="bottom" title="My Home">Contact </button>
-              </Link>
-            </li>
-          </ul>
+        <div className='container'>
+          <nav className="navbar navbar-expand-sm navbar-dark">
 
-        </nav>
+            <ul className="navbar-nav">
+              <li className="nav-item active">
+                <Link to="/">
+                  <button type="button" className="btn btn-success" data-placement="bottom" title="My Home">Home </button>
+                </Link>
+              </li>
+              <h2 className="navbar-brand brand-name">
+                <img className="img1-responsive"
+                  src="./images/benches.jpg" />
+              </h2>
+              <li className="nav-item">
+                <Link to="/Contact">
+                  <button type="button" className="btn" data-placement="bottom" title="My Home">Contact </button>
+                </Link>
+              </li>
+            </ul>
+
+          </nav>
+        </div>
         <div>
           <Switch>
             <Route path="/" exact render={(props) =>
               <Home {...props} handleSubmit={this.handleSubmit} handleInput={this.handleInput} inputValue={this.state.inputValue} />} />
             <Route path="/Jeopardy" render={(props) =>
-              <Jeopardy {...props} customer={this.state.customer}/>} />
+              <Jeopardy {...props} customer={this.state.customer} />} />
             <Route path="/NameGame" render={(props) =>
-              <Namegame {...props} customer={this.state.customer}/>} />
+              <Namegame {...props} customer={this.state.customer} />} />
             <Route path="/WhoAmI" render={(props) =>
-              <Whoami {...props} customer={this.state.customer}/>} />
+              <Whoami {...props} customer={this.state.customer} />} />
             <Route path="/Comparestats" render={(props) =>
               <Comparestats {...props} customer={this.state.customer} />} />
             <Route path="/Contact" render={(props) =>
